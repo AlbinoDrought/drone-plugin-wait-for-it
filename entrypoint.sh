@@ -5,5 +5,5 @@
 
 PLUGIN_TIMEOUT=${PLUGIN_TIMEOUT:-45}
 
-./wait-for-it/wait-for-it.sh "$PLUGIN_HOST:$PLUGIN_PORT" -t "$PLUGIN_TIMEOUT"
+/wait-for-it/wait-for-it/wait-for-it.sh "$PLUGIN_HOST:$PLUGIN_PORT" -t "$PLUGIN_TIMEOUT"
 

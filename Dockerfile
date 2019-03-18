@@ -4,6 +4,4 @@ RUN apk add --no-cache bash
 
 COPY . /wait-for-it
 
-WORKDIR /wait-for-it
-
-ENTRYPOINT ["bash", "entrypoint.sh"]
+ENTRYPOINT ["bash", "/wait-for-it/entrypoint.sh"]
